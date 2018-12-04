@@ -41,7 +41,31 @@
       <section id="secao-controles">
         <h2>Controles</h2>
         <div>
-          <!-- coloque os controles aqui -->
+          <form id="cadastro">
+            Nome:
+            <input type="text" maxlength="10" id="nome-form" name="nome">
+            <br>Cor cabeça:
+            <input type="color" id="head" name="head">
+            <br>Cor corpo:
+            <input type="color" id="body" name="body">
+            <br>Cabelo:
+            <select id="select-cabelo">
+              <option value="imgs/cabelo-careca.png">careca curto</option>
+              <option value="imgs/cabelo-alaranjado-curto.png">cabelo laranja</option>
+              <option value="imgs/cabelo-azul-longo.png">azul longo</option>
+              <option value="imgs/cabelo-marrom-curto.png">marrom curto</option>
+              <option value="imgs/cabelo-preto-medio.png">preto medio</option>
+              <option value="imgs/cabelo-roxo-curto.png">roxo curto</option>
+              <option value="imgs/cabelo-verde-medio.png">verde medio</option>
+            </select>
+            <br>Acessório:
+
+            <br><input type="checkbox" class="checkbox-acessorio" value="avatar-oculos">Oculos
+            <br><input type="checkbox" class="checkbox-acessorio" value="avatar-lacinhos">Lacinho
+            <br><input type="checkbox" class="checkbox-acessorio" value="avatar-bandana">Bandana
+
+
+          </form>
         </div>
       </section>
       <section id="secao-instrucoes">
@@ -57,6 +81,7 @@
           <a href="http://www.icongenerators.net/pixelavatar.html">
             Pixel Art Avatar Icon Generator</a>.</p>
       </section>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </main>
     <script src="avatar.js" charset="utf-8"></script>
   </body>
